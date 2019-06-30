@@ -337,6 +337,7 @@ Retry,"إعادة المحاولة"
 "'Action Details - #' .","'تفاصيل العملية - #' ."
 "%1 item(s) have been scheduled for update.""","%1 صنف (أصناف) على جدول التحديث."""
 "Bulk Actions Log","سجل الإجراءات"
+"Bulk uuid %bulkUuid not exist","حجم التشفير %bulkUuid غير موجود"
 "Topic %1","الموضوع %1"
 "Something went wrong while processing the request.","حدث خطأ أثناء معالجة الطلب."
 "Error processing %key element of input data","حدث خطأ أثناء معالجة العنصر %key من البيانات المدخلة"
@@ -444,9 +445,24 @@ Debug,نقح
 "Maximum Order Total","إجمالي الحد الأعلى للطلب"
 "Sort Order",الترتيب
 "Cannot place order.","لا يمكن وضع أمر شراء."
+"'Gateway error: ' .","'خطأ في البوابة: %1: ' ."
 "Unable to place order. Please try again later.","غير قادر على انشاء الطلب. من فضلك، حاول مرة أخرى لاحقاً."
+"A server error stopped your order from being placed. Please try to place your order again.","خطأ في خادم الموقع أدي لإيقاف إتمام الطلب. الرجاء محاولة الطلب مرة أخرى."
+"The transaction details are unavailable. Please try again later.","تفاصيل المعاملة غير متوفرة. الرجاء معاودة المحاولة في وقت لاحق."
+"Authorize.Net Direct Post (Deprecated)","Authorize.Net مشاركة مباشرة (Deprecated)"
+"Signature Key","مفتاح التوقيع"
 "There was an error while trying to process the request.","حدث خطأ اثناء معالجة الطلب."
+"This transaction cannot be refunded with its current status.","لا يمكن رد هذه المعاملة بحالتها الحالية."
+"The authenticity of the gateway response could not be verified.","لا يمكن التحقق من صحة استجابة البوابة."
+Authorize.Net,Authorize.net
+"Basic Authorize.Net Settings","الإعدادات الأساسية Authorize.Net"
 Environment,البيئة
+"Public Client Key","مفتاح العميل العام"
+"Merchant MD5 (deprecated)","التاجر MD5 (مهمل)"
+"Advanced Authorize.Net Settings","الإعدادات الأساسية Authorize.Net"
+"Enable Credit Card Verification Field","تمكين حقل التحقق من بطاقة الائتمان"
+"Invalid request to gateway.","طلب غير صالح للبوابة."
+"Invalid gateway credentials.","بيانات اعتماد البوابة غير صالحة."
 "Transaction has been declined. Please try again later.","تم رفض المعاملة. الرجاء المحاولة مرة أخرى لاحقاً."
 options,الخيارات
 "Select all","إختيار الكل"
@@ -568,6 +584,7 @@ To,إلى
 "Date selector","اختيار التاريخ"
 "[ deleted ]",[محذوف]
 "Select All","اختيار الكل"
+" [deleted]"," [محذوف]"
 "We couldn't find any records.","لم يتم العثور على أي سجلات."
 "Add New","إضافة جديد"
 Export,استخراج
@@ -754,6 +771,9 @@ Attributes,الصفات
 "Connect Manager","إدارة الاتصال"
 "Package Extensions","مجموعة التحويلات"
 Tools,ادوات
+"Toggle Cache Type","تبديل نوع ذاكرة التخزين"
+"Refresh Cache Type","تحديث ذاكرة التخزين"
+"Catalog Images Cache","صور الكتالوج ذاكرة التخزين المؤقت"
 "Web Setup Wizard","معالج إعداد الشبكة"
 Currency,العملة
 Communications,الاتصالات
