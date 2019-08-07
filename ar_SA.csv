@@ -1017,6 +1017,11 @@ Frequency,التردد
 Size(bytes),الحجم(بايت)
 Type,النوع
 Download,تحميل
+"Backup functionality is disabled","تم تعطيل النسخ الاحتياطي"
+"Backup Settings","إعدادات النسخ الاحتياطي"
+"Enable Backup","تفعيل النسخ الاحتياطي"
+"Scheduled Backup Type","نسخ احتياطي مُجدول"
+"Disabled by default for security reasons","معطل لأسباب امنية"
 Banners,اللافتات
 "Add Banner","إضافة جزء إعلاني"
 "Save Banner","حفظ الإعلان"
@@ -1085,6 +1090,11 @@ Header,الترويسة
 "Specify Banners","حدد لافتة"
 "Banner Block Template","قالب كتلة اللافتة"
 "Banner Inline Template","قالب الشعار المضمن"
+"Dynamic Blocks","الكتل ديناميكية"
+"Add Dynamic Block","الكتل الديناميكية"
+"Save Dynamic Block","حفظ كتلة ديناميكية"
+"Delete Dynamic Block","حذف كتلة ديناميكية"
+"New Dynamic Block","كتلة ديناميكية جديدة"
 "General Information","المعلومات العامة"
 "Use Default Value","استخدام قيمة افتراضية"
 "Add Selected","إضافة المحدد"
