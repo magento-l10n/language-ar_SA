@@ -1495,6 +1495,7 @@ Gallery,البوم
 "System Properties","خصائص النظام"
 "Data Type for Saving in Database","نوع البيان للحفظ في قاعدة البيانات"
 Text,نص
+Varchar,"حقل الأحرف المتغير"
 Static,ساكنة
 Datetime,"وقت التاريخ"
 Decimal,عشري
@@ -1662,6 +1663,7 @@ List,قائمة
 "Static block only","تجميد المساحة فقط"
 "Static block and products","تجميد المساحة والمنتجات"
 "Please select a static block.","الرجاء تحديد كتلة ثابتة."
+frontend_label,"وسم الواجهة الامامية"
 "Could not save product ""%1"" with position %2 to category %3","تعذر حفظ المنتج ""%1"" مع الموقع %2 للفئة %3"
 "Category does not contain specified product","الديلي لا يحتوي على فئة المنتج المحدد"
 "Could not save product ""%product"" with position %position to category %category","تعذر حفظ المنتج ""%product"" مع الموقف %position للفئة %category"
@@ -1812,6 +1814,7 @@ px.,بكسل.
 "Requested product doesn't exist","المنتج المطلوب غير موجود"
 "Product with SKU ""%1"" does not exist","المنتج بالمعرف SKU رقم ""%1"" غير موجود"
 "Invalid product data: %1","بيانات المنتج غير صحيحة: %1"
+"Database connection error","خطأ في الاتصال بقاعدة البيانات"
 "Database deadlock found when trying to get lock","فشل في قاعدة البيانات عند محاولة الحصول على القفل"
 "Database lock wait timeout exceeded","تجاوز وقت انتظار الحصول على قفل قاعدة البيانات"
 "Unable to remove product %1","غير قادر على إزالة المنتج %1"
@@ -1829,6 +1832,7 @@ px.,بكسل.
 Dropdown,انزال
 "%1 doesn't extend \Magento\Framework\Filter\Template","غير ممتد %1 \Magento\Framework\Filter\Template"
 test,اختبار
+"Some text is here.","بعض النص هنا."
 "Some exception","بعض الاستثناء"
 "Could not get extension attributes","لا يمكن الحصول على سمات الملحق"
 message,رسالة
@@ -2175,6 +2179,8 @@ text,نص
 "Use Parent Category Settings","استخدام إعدادات أصل الفئة"
 from,من
 to,الى
+"too many","كثير جدا"
+"Sending attribute values as package.","إرسال قيم الخصال كحزمة."
 "This value does not follow the specified format (for example, 200X300).","هذه القيمة لا تتبع التنسيق المحدد (على سبيل المثال، 200 × 300)."
 Cost,التكلفة
 "Edit Event","تعديل الحدث"
