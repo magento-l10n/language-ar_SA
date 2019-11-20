@@ -6414,6 +6414,7 @@ Translate,الترجمة
 "Please enter valid SKU key.","الرجاء إدخال SKU بشكل صحيح."
 "Please enter a valid number.","الرجاء إدخال رقم صحيح."
 "This is required field","هذا حقل مطلوب"
+"Password cannot be the same as email address.","كلمة السر لا يمكن أن تكون مطابقة لعنوان البريد الإلكتروني."
 "Please fix this field.","الرجاء إصلاح هذا الحقل."
 "Please enter a valid URL.","المرجو إدخال عنوان URL بشكل صحيح."
 "Please enter a valid date (ISO).","الرجاء إدخال تاريخ بشكل صحيح (ISO)."
