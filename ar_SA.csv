@@ -481,7 +481,7 @@ Amounts,المبالغ
 Bestsellers,"الأكثر مبيعاً"
 "Most Viewed Products","المنتجات الأكثر مشاهدة"
 "New Customers","عضو جديد"
-Customer,زبون
+Customer,العميل
 Guest,زائر
 Items,المنتجات
 Total,إجمالي
@@ -1415,14 +1415,21 @@ Message:,الرسالة:
 "Add Products to Option ""%1""","إضافة المنتجات إلى الخيار ""%1"""
 "Special Price","سعر خاص"
 "This is implemented for bundle products only.","تنفذ فقط لحزمة المنتج."
+"The product with the ""%1"" SKU isn't a bundle product.","المنتج الذي يحتوي ""%1"" SKU ليست حزمة منتج."
 "The bundle product can't contain another composite product.","حزمة المنتج لا يمكن أن تحتوي على منتج مركب آخر."
+"The product link needs an ID field entered. Enter and try again.","رابط المنتج يحتاج الى حقل معرف. قم بإدخاله و أعد المحاولة."
 "The product link with the ""%1"" ID field wasn't found. Verify the ID and try again.","لم يتم العثور اتفاقية إتمام الطلب بالمعرف ""%1"" المحدد. تحقق من المعرف وحاول مرة أخرى."
 "The bundle product doesn't exist. Review your request and try again.","لا توجد حزمة المنتج. استعراض الطلب الخاص بك وحاول مرة أخرى."
 "The option that was requested doesn't exist. Verify the entity and try again.","الخيار المطلوب غير موجود. التحقق من الكيان وحاول مرة أخرى."
+"The option couldn't be saved.","تعذر حفظ الإعداد."
 """%fieldName"" is required. Enter and try again.","سمة ال""%f"" مطلوبة. أدخل قيمتها ثم حاول مرة أخرى."
 "The option with ""%1"" ID can't be deleted.","لا يمكن حذف هذا الخيار مع معرف ""%1""."
 """option_id"" and ""parent_id"" values should be specified","يجب تخصيص قيم ""option_id"" و ""parent_id"""
 """sku"" value should be specified","يجب تخصيص قيمة ""sku"""
+"Unique constraint violation found","تم العثور على انتهاك لقيد فريد"
+Status,الحالة
+ID,المعرِّف
+Thumbnail,"صورة مصغرة"
 Always,دائماً
 "After number of attempts to login","بعد عدة محاولات لتسجيل الدخول"
 "Provided form does not exist","النموذج المتوفر غير موجود"
@@ -2246,6 +2253,7 @@ Scroll,تمرير
 Start,ابدء
 End,نهاية
 "Countdown Ticker","شريط العد التنازلي"
+"Concrete type for %1 not implemented","نوع البناء لـ %1 غير مطبق"
 "Missing key %1 in product data","المفتاح %1 مفقود في بيانات المنتج"
 """model"" value should be specified","يجب تحديد قيمة ""الموديل"""
 """path"" value should be specified","يجب تخصيص قيمة ""path"""
@@ -3290,6 +3298,7 @@ Female,أنثى
 "NOT LOGGED IN","غير مسجل الدخول"
 Label,علامة
 Visitor,زائر
+Customer,زبون
 "Personal Information","المعلومات الشخصية"
 "Last Logged In:","اخر تسجيل للدخول:"
 "Last Logged In (%1):","اخر تسجيل للدخول (%1):"
