@@ -2187,18 +2187,28 @@ Ok,موافق
 Watermark,"علامة مائية"
 "Watermark Position","مكان العلامة المائية"
 none,"لا شيء"
+"File validation failed.","فشل التحقق من صحة الملف."
 text,نص
 "Tier Price","السعر الأساسي"
 "If your Magento site has multiple views, you can set the scope to apply to a specific view.","إذا كان لدى موقع الويب الخاص بك من ماجنتو طرق عرض متعددة، فإنه يمكنك تعيين طريقة عرض محددة."
 "Sort Products By","رتب المنتجات حسب"
 "Default Product Sorting","الترتيب الإفتراضي للمنتجعات"
 "Use Parent Category Settings","استخدام إعدادات أصل الفئة"
+"Page not found","لم يتم العثور على الصفحة"
 from,من
 to,الى
+remaining,المتبقي
 "too many","كثير جدا"
 "Sending attribute values as package.","إرسال قيم الخصال كحزمة."
 "This value does not follow the specified format (for example, 200X300).","هذه القيمة لا تتبع التنسيق المحدد (على سبيل المثال، 200 × 300)."
+Quality,الجودة
 Cost,التكلفة
+"The product wasn't registered.","لم يتم تسجيل المنتج."
+"The store wasn't registered. Verify the store and try again.","لا يم يتم تسجيل هذا المتجر. تحقق من المتجر وحاول مرة أخرى."
+"The image content is invalid. Verify the content and try again.","محتويات الصورة غير صحيحة. تأكد من المحتويات ثم حاول مرة أخرى."
+"The product can't be saved.","لا يمكن حفظ المنتج."
+"The product doesn't exist. Verify and try again.","المنتج غير موجود. تأكد ثم حاول مرة أخرى."
+"The image doesn't exist.","الصورة غير موجودة."
 "Edit Event","تعديل الحدث"
 "Add Event","إضافة حدث"
 Events,الأحداث
