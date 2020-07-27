@@ -469,21 +469,21 @@ options,الخيارات
 "Deselect all","إزالة كل الإختيارات"
 "%s of %s selected","تم تحديد %s من %s"
 "B2B Features","ميزات B2B"
-"Invalid Form Key. Please refresh the page.","مفتاح النموذج غير صالح. الرجاء اعادة تنشيط الصفحة."
-"You entered an invalid Secret Key. Please refresh the page.","قمت بإدخال ""مفتاح سر"" غيرصالح. الرجاء تحديث الصفحة."
+"Invalid Form Key. Please refresh the page.","مفتاح النموذج غير صالح. الرجاء تحديث الصفحة."
+"You entered an invalid Secret Key. Please refresh the page.","قمت بإدخال ""مفتاح سر"" غير صالح. الرجاء تحديث الصفحة."
 "Cache Storage Management","إدارة التخزين المؤقت"
-"Flush Magento Cache","مسح ذاكرة التخزين المؤقت لماجنتو"
+"Flush Magento Cache","مسح ذاكرة التخزين المؤقت"
 "The cache storage may contain additional data. Are you sure that you want to flush it?","ذاكرة التخزين المؤقت قد تحتوي على بيانات إضافية. هل أنت متأكد من أنك تريد مسحها؟"
-"Flush Cache Storage","مسح ذاكرة التخزين المؤقت "
-Invalidated,"إلغاء الصلاحية"
-Orders,"طلبات الشراء"
+"Flush Cache Storage","مسح ذاكرة التخزين المؤقت"
+Invalidated,"تاريخ غير صالح"
+Orders,الطلبات
 Amounts,المبالغ
 Bestsellers,"الأكثر مبيعاً"
 "Most Viewed Products","المنتجات الأكثر مشاهدة"
-"New Customers","عضو جديد"
+"New Customers","عميل جديد"
 Customer,العميل
 Guest,زائر
-Items,المنتجات
+Items,عناصر
 Total,إجمالي
 "Lifetime Sales","مبيعات مدى الحياة"
 "Average Order","متوسط الطلبات"
@@ -493,7 +493,7 @@ Revenue,الإيرادات
 Tax,الضريبة
 Shipping,الشحن
 "Images (.gif, .jpg, .png)","الصور (.gif,.jpg,.png)"
-"Media (.avi, .flv, .swf)","الوسائط (.avi, .flv, .swf)"
+"Media (.avi, .flv, .swf)","الوسائط (avi , .flv , .swf.)"
 "All Files","كل الملفات"
 "Reset to Default","إعادة ضبط للإعدادات الإفتراضية"
 "All Store Views","واجهه جميع المواقع"
@@ -2494,10 +2494,21 @@ Path,المسار
 "Product URL Suffix","محدد موقع المعلومات اللاحقة للمنتج"
 "Use Categories Path for Product URLs","استخدام فئات المسار لمحددات مواقع معلومات المنتج"
 "Create Permanent Redirect for URLs if URL Key Changed","إنشاء ""إعادة توجيه دائمة"" لمحددات مواقع المعلومات في حالة تغيير مفتاح URL"
-"Please choose a condition to add.","من فضلك اختر شرطا لاضافتة."
+"Please choose a condition to add.","من فضلك اختر علمية لاضافتها."
+"Out of stock","غير متوفر"
 "Catalog Products List","قائمة المنتجات"
 "List of Products","قائمة المنتجات"
+"Display Page Control","عرض التحكم في الصفحة"
 "Products Grid Template","قالب الشبكة للمنتجات"
+"
+                    Time in seconds between the widget updates.
+                    <br/>If not set, equals to 86400 seconds (24 hours). To update widget instantly, go to Cache Management and clear Blocks HTML Output cache.
+                    <br/>Widget will not show products that begin to match the specified conditions until cache is refreshed.
+                ","
+                    الوقت بالثواني بين تحديثات القطعة.
+                    <br/>إذا لم يتم تعيينه، يساوي 86400 ثانية (24 ساعة). لتحديث القطعة على الفور، انتقل إلى إدارة ذاكرة التخزين المؤقت ومسح ذاكرة التخزين المؤقت لمخرجات بلوك HTML.
+                    <br/>لن تظهر القطعة المنتجات التي تبدأ في مطابقة الشروط المحددة حتى يتم تحديث ذاكرة التخزين المؤقت.
+                "
 "Invalid method: %1","طريقة غير صحيحة: %1"
 "My Cart (1 item)","سلة السلة (منتج واحد)"
 "My Cart (%1 items)","سلة التسوق (%1 منتج)"
@@ -2573,6 +2584,7 @@ Error!,خطأ!
 Reason,السبب
 "Checkout Type","نوع الشراء"
 Customer:,العميل:
+Items,المنتجات
 Total:,الإجمالي:
 "Billing Address:","عنوان الفاتورة:"
 "Shipping Address:","عنوان الشحن:"
@@ -3361,6 +3373,7 @@ Newsletters,"النشرات البريدية"
 "Confirm Password","تأكيد كلمة المرور"
 "Set a New Password","تعيين كلمة مرور جديدة"
 "You have signed out and will go to our homepage in 5 seconds.","تم تسجيل الخروج بنجاح. سيتم تحويلك للصفحة الرئيسية بعد ٥ ثوان."
+"New Customers","عضو جديد"
 "Creating an account has many benefits: check out faster, keep more than one address, track orders and more.","إنشاء حساب له فوائد عديدة: شراء أسرع، حفظ العناوين، متابعة الطلبات وأشياء أخرى."
 Fax,فاكس
 "Welcome to %store_name","مرحبا بك في %store_name"
@@ -3466,6 +3479,7 @@ Addresses,العنوان
 "Checkout out using your account","الشراء باستخدام حسابك"
 "Last Logged In","اخر تسجيل للدخول"
 "You are signed out.","قمت بتسجيل الخروج."
+"Invalid Form Key. Please refresh the page.","مفتاح النموذج غير صالح. الرجاء اعادة تنشيط الصفحة."
 State,ولاية
 "Delete Orphan Balances","حذف أرصدة يتيمة"
 "Balance Change","تغير الرصيد"
@@ -3616,6 +3630,7 @@ matches,يتطابق
 "less than","أقل من"
 "Up To Date",محدث
 "Use in Customer Segment","الاستخدام في شرائح العملاء"
+"Please choose a condition to add.","من فضلك اختر شرطا لاضافتة."
 "Enable Customer Segment Functionality","تمكين وظيفة شرائح العملاء"
 "Refresh Data","تحديث البيانات"
 "Manage Segments","إدارة شرائح العملاء"
@@ -4613,6 +4628,7 @@ Status:,الحالة:
 "Sorry, something went wrong.","آسف، حدث خطأ ما."
 "PayPal Settlement","تسوية باي بال"
 Manage,إدارة
+Orders,"طلبات الشراء"
 "<a href=""http://www.magentocommerce.com/paypal"">Start accepting payments via PayPal!</a>","<a href=""http://www.magentocommerce.com/paypal"">إبدأ قبول الدفع عن طريق PayPal!</a>"
 "API Password","API كلمة السر"
 "Proxy Host","مضيف البروكسي"
