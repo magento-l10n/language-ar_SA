@@ -34,7 +34,7 @@ Custom,مخصص
 "Mark as Read","تعيين كمقروء"
 "Are you sure?","هل أنت متأكد؟"
 Remove,ازالة
-"Messages Inbox","رسائل علبة الوارد"
+"Messages Inbox","الرسائل الواردة"
 "You have %1 new system messages","لديك %1 من رسائل النظام الجديدة"
 "You have %1 new system message","لديك %1 رسالة نظام جديدة"
 "Incoming Message","رسالة واردة"
@@ -3941,6 +3941,7 @@ Maximum,"الحد الاقصى"
 Information,بيانات
 "Gift Card Account","حساب بطاقة الهدية"
 History,السّجل
+"Edit Gift Card Account","تعديل حساب بطاقة الهدايا"
 "New Account","حساب جديد"
 "You deleted a total of %1 records.","قمت بحذف مجموعة سجلات %1."
 "You can't remove this gift card.","لا يمكنك إزالة بطاقة الهدية هذه."
@@ -4514,6 +4515,7 @@ Cancelled,"تم الإلغاء"
 "Enter your email address","ادخل عنوان بريدك الالكتروني"
 Subscribe,اشتراك
 "To begin receiving the newsletter, you must first confirm your subscription by clicking on the following link:","للبدء في إستقبال الرسالة الإخبارية، يجب عليك أولاً تأكيد اشتراك; عن طريق الضغط على الرابط التالي:"
+"Newsletter subscription success","نجاح الاشتراك في النشرة البريدية"
 "You have been successfully subscribed to our newsletter.","لقد اشتركت في نشرتنا البريدية."
 "Newsletter unsubscription success","إلغاء الاشتراك في النشرة البريدية"
 "You have been unsubscribed from the newsletter.","تم إلغاء اشتراكك من النشرة البريدية."
@@ -4888,11 +4890,18 @@ Approved,وافق
 "Update Points","تحديث النقاط"
 "Reward Points Notifications","اشعارات نقاط المكافأة"
 "Add New Rate","إضافة معدل الجديد"
+"You unsubscribed.","قمت بإلغاء الاشتراك."
 "Updated by moderator","تم التحديث من قبل المشرف"
 "Signed up for newsletter with email %1","اشتركت في النشرة البريدية ببريد %1"
 "Points to Currency","نقاط إلى عملة"
 "Currency to Points","عملة إلى نقاط"
+Each,لكل
 First,أول
+"Reward Points Balance Updated at %store_name","تم تحديث رصيد نقاط المكافأة عند %store_name"
+"You have %points_balance points that may be used in our store:","لديك %points_balance نقطة يمكنك استخدامهم في متجرنا:"
+"<a href=""%unsubscription_url"">Unsubscribe</a> from these notifications.","<a href=""%unsubscription_url"">إلغاء الاشتراك</a> من هذه الإشعارات."
+"Reward Points Expiry Warning at %store_name","تنبيه بانتهاء صلاحية نقاط المكافأة عند %store_name"
+"You have a total of %points_balance points that may be used in our store:","لديك %points_balance نقطة يمكنك استخدامهم في متجرنا:"
 "Create an account on our site now and earn %1.","انشئ حساب على موقعنا الآن احصل على %1."
 "Subscribe to our newsletter now and earn %1.","اشترك في نشرتنا البريدية الآن واكسب %1."
 Return,إرجاع
