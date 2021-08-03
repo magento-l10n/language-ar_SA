@@ -16,6 +16,8 @@ None,"لا شئ"
 "More permissions are needed to set All Scopes to a Role.","تحتاج إلى مزيد من الصلاحيات لتعيين جميع النطاقات في دور."
 "The ""%1"" website ID is incorrect. Verify the website ID and try again.","رمز موقع ""%1"" غير صحيح. تحقق من رمز الموقع وحاول مرة أخرى."
 "You need more permissions to access website ""%1"".","تحتاج لمزيد من الصلاحيات للوصول إلى الموقع ""%1""."
+"The ""%1"" store ID is incorrect. Verify the store ID and try again.","الرقم التعريفي ""%1"" للمتجر غير صحيح، يجب التاكد من الرقم التعريفي للمتجر ثم المحاولة لاحقا."
+"More permissions are needed to save this setting.","تحتاج للمزيد من الصلاحيات لحفظ هذا الاعداد."
 "Role Scopes","نطاقات الدور"
 Custom,مخصص
 "Read Details","قراءة التفاصيل"
@@ -60,6 +62,7 @@ notice,إشعار
 Close,إغلاق
 "See All (","انظر (جميع"
 " unread)"," غير مقروء)"
+"System Messages","رسائل النظام"
 "Show Toolbar","إظهار شريط الأدوات"
 "Show List","إظهار القائمة"
 "Use HTTPS to Get Feed","استخدام HTTPS للحصول على تغذية"
@@ -105,10 +108,19 @@ Configure,ضبط
 "You must buy at least %1 of these per purchase.","يجب عليك شراء على الأقل %1 من هذه المنتجات لكل عملية شراء."
 "Specify the product's options.","قم بتحديد خيارات المنتج."
 "Alert me when this item is available.","تنبيهي عندما يتوفر هذا العنصر."
+"This customer couldn't be found. Verify the customer and try again.","لا يمكن العثور على هذا العميل. تحقق من العميل وحاول مرة أخرى."
 "Shopping cart management is disabled for this customer.","إدارة سلة التسوق لهذا الزبون غير مفعلة."
+"This store couldn't be found. Verify the store and try again.","لا يمكن العثور على هذا المتجر. تحقق من المتجر وحاول مرة أخرى."
 Customers,العملاء
 "Shopping Cart","سلة التسوق"
+"An error occurred. For details, see the error log.","حدث خطأ. لمزيد من التفاصيل، راجع سجل الأخطاء."
 "You do not have access to this.","لا تملك الصلاحية للدخول."
+"Orders can only be completed in an active store. Verify the store and try again.","لا يمكن إتمام الطلبات إلا في متجر نشط. تحقق من المتجر وحاول مرة أخرى."
+"The ordered item needs to be loaded. Load the item and try again.","الصنف المطلوب يحتاج إلى أن يتم تحميله. قم بتحميل الصنف وحاول مرة أخرى."
+"The quote item ID needs to be received. Set the ID and try again.","يجب أن يتم استلام معرّف عنصر السعر. عيِّن المعرّف وحاول مرة أخرى."
+"The quote item needs to be loaded. Load the item and try again.","يجب أن يتم استلام عنصر السعر. عيِّن العنصر وحاول مرة أخرى."
+"The wish list item ID needs to be received. Set the ID and try again.","يجب أن يتم استلام معرّف عنصر السعر. عيِّن المعرّف وحاول مرة أخرى."
+"The wish list item needs to be loaded. Load the item and try again.","يجب أن يتم استلام عنصر قائمة الرغبات. عيِّن العنصر وحاول مرة أخرى."
 "An error has occurred. See error log for details.","لقد حدث خطأ. راجع سجل الأخطاء للحصول على التفاصيل."
 "You cannot configure a product.","لا يمكنك تكوين منتج."
 "You removed the items.","قمت بإزالة العناصر."
@@ -139,6 +151,7 @@ Customers,العملاء
 "Yes, for Specified Customer Groups","نعم، بالنسبة لمجموعات العميل المحددة"
 "Yes, for Everyone","نعم، بالنسبة للجميع"
 No,لا
+"The file is corrupt and can't be used.","الملف معطوب ولا يمكن استخدامه."
 "Please upload the file in .csv format.","الرجاء تحميل ملف بتنسيق.csv."
 "%1 item(s) need your attention.","%1 العنصر (العناصر) بحاجة إلى الاهتمام الخاص بك."
 "Apply Coupon Code","تطبيق رمز قسيمة الخصم"
@@ -226,10 +239,17 @@ Yes,نعم
 "Error while checking if topic is synchronous","حدث خطأ أثناء التحقق من إذا كان الموضوع متزامن"
 "Subscription status","حالة الاشتراك"
 "Sorry, there has been an error processing your request. Please try again later.","عذراً، حدث خطأ أثناء معالجة طلبك. الرجاء المحاولة مرة أخرى لاحقاً."
+"The time value is using an unsupported format. Enter a supported format and try again.","القيمة الزمنية تستخدم تنسيق غير مدعوم. أدخل تنسيق مدعوم وحاول مرة أخرى."
 "Cron settings can't be saved","لا يمكن حفظ إعدادات كرون Cron"
 "There was an error save new configuration value.","حدث خطأ أثناء حفظ قيمة الإعداد الجديد."
 "Please select an industry.","رجاءا حدد مجال التجارة."
 "--Please Select--","--أختر من فضلك--"
+"Command ""%1"" was not found.","لم يتم العثور على الأمر ""%1""."
+"The data is invalid. Enter the data as a string or data that can be converted into a string and try again.","البيانات غير صالحة. ادخل بيانات كنص او بيانات قابلة لان تتحول لنص و حاول مرة اخرى."
+"The data is invalid. Enter the data as a string and try again.","البيانات غير صالحة. أدخل البيانات كنص وحاول مرة اخرى."
+"The data is invalid. Use a valid cipher method and try again.","البيانات غير صالحة. أستخدم طريقة تشفير صالحة و حاول مرة اخرى."
+"Enter the encryption key and try again.","أدخل مفتاح التشفير وحاول مرة اخرى."
+"The ""%1"" source doesn't exist.","المصدر ""%1"" غير موجود."
 "These arguments can't be empty ""%1""","لا يمكن ترك هذه الصيغ فارغة ""1%"""
 "Cannot find predefined integration user!","لا يمكن العثور على مستخدم دمج معرف مسبقا!"
 "File is not ready yet.","الملف غير جاهز حتى الآن."
@@ -248,11 +268,24 @@ API,"واجهة برمجة التطبيقات (API)"
 Configuration,الضبط
 "Business Intelligence","ذكاء الأعمال"
 "BI Essentials","أساسيات الذكاء التجاري"
+"This service provides a dynamic suite of reports with rich insights about your business.
+                Your reports can be accessed securely on a personalized dashboard outside of the admin panel by clicking on the
+                ""Go to Advanced Reporting"" link. </br> For more information, see our <a target=""_blank"" href=""https://magento.com/legal/terms/cloud-terms"">
+                terms and conditions</a>.","توفر هذه الخدمة مجموعة تقارير ديناميكية برؤى غنية حول أعمالك.
+يمكن الوصول إلى تقاريرك بأمان من لوحة يمكن تخصيصها وذلك من خارج لوحة التحكم لمدير النظام عن طريق
+                رابط ""إذهب إلى التقارير المتقدمة"". </br> للمزيد من المعلومات، انظر الرابط
+                <a target=""_blank"" href=""https://magento.com/legal/terms/cloud-terms"">الشروط والأحكام</a>."
 "Advanced Reporting Service","خدمة التقارير المتقدمة"
 "Time of day to send data","وقت إرسال البيانات خلال اليوم"
+"Industry Data","بيانات الصناعة"
 Industry,صناعة
 "In order to personalize your Advanced Reporting experience, please select your industry.","من أجل تخصيص التقارير المتقدمة الخاصة بك يرجى اختيار مجال تجارتك."
 "<strong>Get more insights from Magento Business Intelligence</strong>","<strong>احصل على المزيد من الرؤى من ماجنتو لذكاء الأعمال</strong>"
+"Magento Business Intelligence provides you with a simple and clear path to
+                    becoming more data driven.</br> Learn more about <a target=""_blank""
+                    href=""https://dashboard.rjmetrics.com/v2/magento/signup/"">Magento BI Essentials and BI Pro</a> tiers.","يوفر لك ماجنتو ذكاء الأعمال مسارا بسيطا وواضحا إلى
+                    أن تصبح أكثر مدفوعة بالبيانات.</br> تعرف على المزيد حول <a target=""_blank""
+                    href=""https://dashboard.rjmetrics.com/v2/magento/signup/"">أساسيات ماجنتو و BI برو</a> مستويات."
 "Auto Parts","قطع غيار السيارات"
 "Baby/Children’s Apparel, Gear and Toys","ألعاب وأدوات واكسسوارات الأطفال والمواليد"
 "Beauty and Cosmetics","أدوات التجميل والجمال"
@@ -271,11 +304,17 @@ Industry,صناعة
 "Pet Goods","مستلزمات تربية الحيوانات"
 "Pharma and Medical Devices","الأدوات الطبية والصيدلية"
 "Technology B2B","التقنية (مورد لمورد)"
+Other,أخرى
 Done,انتهى
 Retry,"إعادة المحاولة"
 "'Action Details - #' .","'تفاصيل العملية - #' ."
 "%1 item(s) have been scheduled for update.""","%1 صنف (أصناف) على جدول التحديث."""
 "Bulk Actions Log","سجل الإجراءات"
+"Bulk uuid %bulkUuid not exist","حجم التشفير %bulkUuid غير موجود"
+"Topic %1","الموضوع %1"
+"Something went wrong while processing the request.","حدث خطأ أثناء معالجة الطلب."
+"Error processing %key element of input data","حدث خطأ أثناء معالجة العنصر %key من البيانات المدخلة"
+"Sorry, something went wrong during product prices update. Please see log for details.","آسف، حدث خطأ أثناء تحديث أسعار المنتج. الرجاء مراجعة السجل للحصول على التفاصيل."
 "%1 item(s) are currently being updated.","يجري حاليا تحديث %1 صنف (أصناف)."
 "Task ""%1"": ","المهمة ""%1"": "
 "%1 item(s) have been scheduled for update.","%1 صنف (أصناف) على جدول التحديث."
@@ -290,7 +329,9 @@ Dismiss,استبعاد
 ", %1 failed to update","لم يتم تحديث %1"
 "Something went wrong.","حدث خطأ ما."
 "Action Log","سجل الإجراءات"
+Report,تقرير
 "Bulk Actions","مجموعة إجراءات"
+"Action Logs","سجل الإجراءات"
 "Days Saved in Log","أيام محفوظة في سجل"
 "Description of Operation","وصف العملية"
 Summary,خلاصة
@@ -304,6 +345,7 @@ Error,خطأ
 "Dismiss All Completed Tasks","إستبعاد جميع المهام المكتملة"
 "Action Details - #","تفاصيل العملية - #"
 "Number of Records Affected","عدد السجلات التي تأثرت"
+"The role wasn't found for the user. Verify the role and try again.","لا يمكن العثور على الدور المطلوب. فضلا تأكد من الدور و حاول مرة أخرى."
 "Something went wrong while compiling a list of allowed resources. You can find out more in the exceptions log.","حدث خطأ أثناء تجميع قائمة من الموارد المسموح بها. يمكنك العثور على مزيد من المعلومات في سجل الاستثناءات."
 "You created the order.","قمت بإنشاء الطلب."
 "Order saving error: %1","أمر حفظ الخطأ: %1"
@@ -397,6 +439,8 @@ Environment,البيئة
 options,الخيارات
 "Select all","إختيار الكل"
 "Deselect all","إزالة كل الإختيارات"
+Show,عرض
+"per page",بالصفحة
 "%s of %s selected","تم تحديد %s من %s"
 "B2B Features","ميزات B2B"
 "Invalid Form Key. Please refresh the page.","مفتاح النموذج غير صالح. الرجاء تحديث الصفحة."
@@ -503,6 +547,7 @@ Stores,محلات
 "Create Store View","إنشاء عرض متجر"
 Home,"الصفحة الرئيسية"
 "Are you sure you want to do this?","هل أنت متأكد أنك تريد فعل ذلك؟"
+label,علامة
 "Add New Image","اضف صورة جديدة"
 "Export block for grid %1 is not defined","تصدير قائمة للشبكة %1 غير معرف"
 "Reset Filter","ترشيح اعادة تعين"
@@ -1411,7 +1456,6 @@ Categories,فئات
 "Please select products for attributes update.","الرجاء اختيار المنتجات للصفات المحدثة."
 "Please make sure to define SKU values for all processed products.","الرجاء التأكد من تحديد قيم SKU لجميع المنتجات المجهزة."
 "Something went wrong while updating the product(s) attributes.","حدث خطأ أثناء تحديث سمات المنتج (المنتجات)."
-"Something went wrong while processing the request.","حدث خطأ أثناء معالجة الطلب."
 "Unable to add attribute","غير قادر على إضافة سمة"
 "Manage Product Attributes","ادارة منتج السمات"
 "We can't delete the attribute.","لا نستطيع حذف السمة."
@@ -2029,6 +2073,8 @@ Allow,سماح
 Deny,رفض
 "Use parent","استخدام الأصل"
 "Category Permissions Section","قسم صلاحيات الفئة"
+"<strong class=""warning-enable-permissions"">Warning!</strong> By default this feature restricts all categories.","<strong class=""warning-enable-permissions""> تحذير!</strong> بشكل افتراضي هذه الميزة تقييد جميع الفئات."
+"Allow Browsing Category","السماح بتصفح الفئة"
 "Landing Page","الصفحة المقصودة"
 "Allow Adding to Cart","السماح بالإضافة للسلة"
 "Disallow Catalog Search By","عدم السماح بالبحث في الكتلوج حسب"
@@ -3664,7 +3710,6 @@ items,قطع
 "All Users","جميع المستخدمين"
 "Admin Actions Log","سجل الإجراءات الإدارية"
 "Admin Actions Archive","أرشيف الإجراءات الإدارية"
-Report,تقرير
 "actions' 'label","إجراءات التسمية"
 "%1 & applied","%1 & تم تطبيقها"
 "Tax Rates Import","معدلات ضريبة الاستيراد"
@@ -5263,7 +5308,6 @@ Rectangular,مستطيل
 Non-rectangular,"غير مستطيل"
 Large,كبير
 Gift,هدية
-Other,أخرى
 Machinable,"مفهوم من قبل الإله"
 "Add New Variable","إضافة متغير جديد"
 "Custom Variable ""%1""","المتغيرات المخصصة ""%1"""
@@ -5601,8 +5645,12 @@ Captured,إلتقاط
 "Store alternative addresses","حفظ عناوين بديلة"
 "For shipping to multiple family members and friends","للشحن إلى العديد من أفراد العائلة والأصدقاء"
 "If you have questions about your order, you can email us at <a href=""mailto:%store_email"">%store_email</a>.","إذا كان لديك أسئلة حول الطلب، يمكنك مراسلتنا على <a href=""mailto:%store_email""> %store_email</a>."
+"Warning: No message defined for %s","تحذير: لا توجد رسالة محددة لـ %s"
 "Backup options","خيارات النسخ الاحتياطي"
 Warning,تحذير
+"Insert Variable","إدراج متغير"
+"Insert Widget","إدراج رمز"
+"The widget %1 is no longer available. Select a different widget.","القطعة %1 لم تعد متوفرة. اختر أداة مختلفة."
 "Recent items","العناصر الحديثة"
 "Show all...","إظهار الجميع..."
 "Please enter a number greater 0 in this field.","فضلا قم بادخال رقم اكبر من 0 في الحقل."
@@ -5610,8 +5658,12 @@ Warning,تحذير
 "Please specify Url.","يرجى تحديد URL."
 "Method %s does not exist on jQuery.decorate","طريقة %s غير موجودة على jQuery.decorate"
 "Please wait...","الرجاء الانتظار..."
+"All %1","الكل %1"
 Translate,الترجمة
+"No marginal white space please","لا توجد مساحة بيضاء من فضلك"
 "Please remove invalid characters: {0}.","الرجاء إزالة الأحرف غير الصالحة: {0}."
+"Forbidden extensions has been used. Avoid usage of ","تم استخدام امتدادات محظورة. تجنب استخدام "
+"First character must be letter.","يجب أن يكون الحرف الأول حرفاً."
 "Please select one of the options above.","الرجاء تحديد أحد الخيارات الواردة أعلاه."
 "Please select a file.","الرجاء تحديد ملف."
 "Please select one of the options.","رجاء قم باختيار وحده من الخيارات."
@@ -5626,6 +5678,10 @@ Translate,الترجمة
 "Please enter valid SKU key.","الرجاء إدخال SKU بشكل صحيح."
 "Please enter a valid number.","الرجاء إدخال رقم صحيح."
 "This is required field","هذا حقل مطلوب"
+"Admin is a required field in each row.","الإدارة تطلب خانة في كل صف."
+"Please enter a quantity greater than 0.","الرجاء إدخال كمية أكبر من 0."
+"The maximum you may purchase is %1.","الحد الأعلى الذي يمكنك شراؤه هو %1."
+"The password can't be the same as the email address. Create a new password and try again.","لا يمكن أن تكون كلمة المرور هي نفس عنوان البريد الإلكتروني. قم بإنشاء كلمة مرور جديدة ثم حاول مرة أخرى."
 "Please fix this field.","الرجاء إصلاح هذا الحقل."
 "Please enter a valid URL.","المرجو إدخال عنوان URL بشكل صحيح."
 "Please enter a valid date (ISO).","الرجاء إدخال تاريخ بشكل صحيح (ISO)."
@@ -5641,3 +5697,5 @@ Translate,الترجمة
 "Please enter a valid year (1900-%1).","الرجاء إدخال سنة صحيحة (1900-%1)."
 "Please enter a valid day (1-%1).","الرجاء إدخال يوم صحيح (1-%1)."
 "Please enter a date from the past.","الرجاء إدخال تاريخ من الماضي."
+custom.definition,"تعريف مخصص"
+component.behaviours,"سلوكيات المكون"
