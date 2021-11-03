@@ -794,6 +794,7 @@ Advanced,متقدم
 "Customer Support","دعم العملاء"
 Developer,مطور
 "Enable Template Path Hints for Storefront","تمكين تلميحات مسار القالب لواجهة المتجر"
+"Enable Template Path Hints for Admin","Customer Login"
 "Template Settings","إعدادات القالب"
 "Allow Symlinks","السماح بالروابط الرمزية"
 "Minify Html","صغر Html"
