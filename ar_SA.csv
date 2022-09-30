@@ -2589,12 +2589,45 @@ Block,"رقم القطعة"
 "CMS Blocks","كتلة نظام إدارة المحتويات CMS"
 "Delete Customer","حذف عميل"
 "Delete Company","حذف شركة"
+Companies,الشركات
+"Add New Company","إضافة شركة جديدة"
+(me),(انا)
+"Company Name:","اسم الشركة:"
+"Company Legal Name:","الاسم القانوني للشركة:"
+"Company Email:","البريد الإلكتروني للشركة:"
+"VAT/TAX ID:","الرقم الضريبي:"
+"Re-seller ID:","معرف إعادة البائع:"
+"Street Address:","عنوان الشارع:"
+City:,المدينة:
+Country:,البلد:
+State/Province:,الولاية/المقاطعة:
+"ZIP/Postal Code:","الرمز البريدي:"
+"Phone Number:","رقم الهاتف:"
+"Job Title:","المسمي الوظيفي:"
 "Email Address:","البريد الإلكتروني:"
+Prefix:,اللقب:
 "First Name:","الاسم الاول:"
+"Middle Name/Initial:","الاسم الأوسط/المبادرة:"
 "Last Name:","الاسم الاخير:"
+Suffix:,"ما يلي:"
+Gender:,"نوع الجنس:"
+Duplicated,مكرر
+title,العنوان
+"Company Structure","بنية الشركة"
+"New Company","شركة جديدة"
+"Thank you! We're reviewing your request and will contact you soon","شكراً لك! نحن نقوم بمراجعة طلبك وسوف نتصل بك قريباً"
+"An error occurred on the server. Your changes have not been saved.","حدث خطأ على الخادم. لم يتم حفظ التغييرات الخاصة بك."
+"Create New Company","إنشاء شركة جديدة"
 "A total of %1 record(s) were updated.","عدد %1 سجلات تم تحديثها."
 "Something went wrong. Please try again later.","حدث خطأ ما. الرجاء المحاولة مرة أخرى لاحقاً."
+"Invalid value of ""%value"" provided for the email field.","قيمة ""%value"" غير صالحة لحقل البريد الإلكتروني."
+"Invalid value ""%value"" given for the website ID field.","قيمة ""%value"" غير صحيحة لحقل معرف الموقع."
+"You have deleted company %companyName.","لقد حذفت الشركة %companyname."
+"The company no longer exists.","الشركة لم تعد موجودة."
+"The requested company is not found","لم يتم العثور على الشركة المطلوبة"
+"can not be saved","لا يمكن حفظه"
 "A total of %1 record(s) were deleted.","تم حذف %1 من السجلات."
+"Could not save company","تعذر حفظ الشركة"
 "Add New Role","اضف دور جديد"
 "Edit Role","تعديل الدور"
 "Company admin","مسؤول الشركة"
@@ -2689,7 +2722,6 @@ Add,إضافة
 Bcc,"نسخة مخفية"
 "Separate Email","بريد إلكتروني مفصول"
 "%1 (Default)","%1 (افتراضي)"
-title,العنوان
 Optional,اختياري
 "HTTP (unsecure)","HTTP (غير امن)"
 "Yes (302 Found)","نعم (302 وجدت)"
