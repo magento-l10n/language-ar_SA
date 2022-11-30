@@ -2728,6 +2728,8 @@ Optional,اختياري
 "Yes (301 Moved Permanently)","نعم (301 انتقلت بشكل دائم)"
 Specified,محدد
 "Some error","خطأ ما"
+"Some message","بعض الرسائل"
+"You cannot run this command because the Magento application is not installed.","لا يمكنك تشغيل هذا الأمر لأن تطبيق الـ Magento لم يتم تثبيته."
 "Add after","إضافة بعد"
 "Current Configuration Scope:","التشكيل الحالي لنطاق:"
 "Currency Setup Section","قسم ضبط العملة"
