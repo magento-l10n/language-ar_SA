@@ -2,6 +2,7 @@ All,الكل
 None,"لا شئ"
 "Allowed Scopes","النطاقات المسموح بها"
 "You need more permissions to apply some of the rule updates.","تحتاج إلى مزيد من الصلاحيات لتطبيق بعض تحديثات القاعدة."
+"You can create orders only in an active store.",
 "You need more permissions to access website ""%1"".","تحتاج لمزيد من الصلاحيات للوصول إلى الموقع ""%1""."
 "Role Scopes","نطاقات الدور"
 Custom,مخصص
